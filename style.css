@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'roboto', sans-serif;
+    background-color: #435363;
+    height: 100vh;
+    gap: 40px;
+}
+h1{
+    color: #fff;
+}
+
+.gif {
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+.gif video {
+    width: 100%;
+    height: 300px;
+    display: block;
+    border-radius: 15px;
+}
+
+.foodlist ul {
+    display: flex;
+    padding: 0;
+    gap: 15px;
+    list-style: none;
+
+}
+
+.foodlist a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #124e66; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color .5s;
+    box-shadow: 0 2px 8px #8a7d7d; 
+}
+.foodlist a:hover{
+    background-color: #1c779b;
+}
